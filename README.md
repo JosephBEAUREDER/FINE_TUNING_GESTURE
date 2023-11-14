@@ -7,10 +7,12 @@ This code extract labels associated with movement features from a gesture datase
 
 To summarize, the code is made of 4 different parts :
 
-* 1 - Extracting the labels/features from .elan files (using the documentation of the dataset)
+* 1 - Extracting the labels of the movements from .elan files (using the documentation of the dataset)
+
+* 2 - Extracting the movements data from the .H5 files (PATS dataset)
   
-* 2 - Doing statistics over the labels/features
+* 3 - Doing statistics over the labels/features
   
-* 3 - Preprocessing the labels/features to prepare the data for machine-learning training (using Keras/TensorFlow)
+* 4 - Preprocessing the labels/features to prepare the data for machine-learning training (using Keras/TensorFlow)
   
-* 4 - Training the model (LSTM, Keras, TensorFlow)
+* 5 - Training the model (LSTM, Keras, TensorFlow)
